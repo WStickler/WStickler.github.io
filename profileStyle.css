@@ -1,0 +1,89 @@
+﻿li  {
+    color: crimson;
+    font-size: 2rem;
+}
+
+p
+{
+    font-size: 1.5rem;
+}
+
+main-title{
+    font-size: 5rem;
+}
+
+.demo-class{
+    background-color: lightsalmon;
+}
+
+/*wildcard, this one means all*/
+* {
+    font-family: Arial;
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darksalmon;
+    color: darkred;
+}
+
+h2{
+    color: darkblue;
+}
+
+/*This creates a class you can assign to a tag*/
+.section-1 {
+    background-color: rgba(0,0,0,0.3);
+    border: 5px pink solid;
+    text-align: center;
+}
+
+article.section-1 img {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+.section-2 {
+    background-color: rgba(0,0,0,0.4);
+    border: 16px red groove;
+}
+
+.container{
+    width: 75%;
+    /*This will automatically balance the margin. Makes them even on all sides.*/
+    margin: auto;
+}
+
+ul{
+    width: 300px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.flex-container li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+a:active{
+    color: lightseagreen;
+}
+
+img{
+    width: none;
+    height: auto;
+}
